@@ -10,6 +10,7 @@ class NoOggyChecker
     {
         if(name.StartsWith("oggy")) {
             Console.WriteLine($"Need to remove {name}!");
+          
             names.Remove(name);
              //break; you can stop once you have found first oggy , this crash is due to iterator modification
         }
